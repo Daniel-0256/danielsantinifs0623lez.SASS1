@@ -1,0 +1,8 @@
+@mixin flex {
+    display: flex;
+}
+@mixin floating {
+    border-radius: 5%;
+    box-shadow: 2px 2px rgb(84, 83, 83);
+    border: 1px solid white;
+}

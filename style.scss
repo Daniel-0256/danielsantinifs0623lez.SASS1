@@ -1,0 +1,52 @@
+@import "animazioni";
+@import "bottoni";
+@import "colori";
+@import "font";
+@import "mixins";
+@import "spaziature";
+
+header {
+    background-color: $bgcolor1;
+    padding: 10px;
+}
+nav {
+    @include flex;
+    justify-content: space-between;
+}
+nav h3 {
+    padding: 14px;
+}
+nav ul {
+    @include flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 14px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    background-color: $bgcolor1;
+    @include flex;
+    padding: 30px;
+}
+main img {
+    width: 900px;
+    height: auto;
+    @include floating;
+}
+#button1 {
+    @include button;
+    background-color: $colorebot1
+}
+#button2 {
+    @include button;
+}
+#button3 {
+    @include button;
+}
+aside img {
+    @include floating;
+}
