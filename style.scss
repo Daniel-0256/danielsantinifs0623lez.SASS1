@@ -36,6 +36,8 @@ main img {
     width: 900px;
     height: auto;
     @include floating;
+    position: relative;
+    bottom: -100px
 }
 #button1 {
     @include button;
@@ -46,6 +48,9 @@ main img {
 }
 #button3 {
     @include button;
+}
+aside {
+    margin-top: 104px;
 }
 aside img {
     @include floating;

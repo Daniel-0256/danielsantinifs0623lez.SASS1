@@ -38,10 +38,12 @@ main img {
   border-radius: 5%;
   box-shadow: 2px 2px rgb(84, 83, 83);
   border: 1px solid white;
+  position: relative;
+  bottom: -100px;
 }
 
 #button1 {
-  order-radius: 6px;
+  border-radius: 6px;
   border: none;
   padding: 10px;
   color: white;
@@ -49,17 +51,21 @@ main img {
 }
 
 #button2 {
-  order-radius: 6px;
+  border-radius: 6px;
   border: none;
   padding: 10px;
   color: white;
 }
 
 #button3 {
-  order-radius: 6px;
+  border-radius: 6px;
   border: none;
   padding: 10px;
   color: white;
+}
+
+aside {
+  margin-top: 104px;
 }
 
 aside img {
